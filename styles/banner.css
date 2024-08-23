@@ -1,0 +1,36 @@
+.banner {
+    background: var(--azul-degrade); /* A propriedade correta a ser utilizada é "backgroud" pelo fato da cor ser um linear gradient, e não uma cor sólida. */
+    color: var(--branco);   
+    text-align: center;
+    padding: 2.5em 2em;
+}
+
+.banner__titulo {
+    font-size: 18px;
+    font-weight: 700; 
+}
+
+.banner__texto {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 1em 0;
+}
+
+.banner__pesquisa {
+    border: 2px solid var(--branco);
+    border-radius: 24px;
+    padding: 1em;
+    width: 100%;
+    background-color: transparent;
+    color: var(--branco);
+}
+
+.banner__pesquisa::placeholder {
+    font-family: var(--fonte);
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--branco);
+    text-align: center;
+    background: url(/img/lupa.svg) no-repeat; /* Adiciona um ícone de lupa ao input */
+    background-position: 1em; /* Funciona como um "Padding" para o background */
+}
