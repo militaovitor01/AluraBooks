@@ -8,3 +8,43 @@ hr {
     font-weight: 400;
     padding: 1.5em 1em;
 }
+
+.listas {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .rodape {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .rodape__titulo {
+        font-size: 24px;
+    }
+
+    .listas {
+        display: flex;
+        justify-content: space-around;
+        
+    }
+
+    .listas__titulo {
+        font-size: 14px;
+    }
+
+    .lista__itens {
+        display: flex;
+        align-items: center;
+        gap: 1em;
+        padding: 0.5em 1em 0 0;
+    }
+}
+
+
+@media screen and (min-width: 1728px) {
+    .lista__rodape {
+        border-left: 2px solid var(--cinza);
+        padding-left:1em;
+    }
+}

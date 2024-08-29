@@ -34,3 +34,23 @@
     background: url(/img/lupa.svg) no-repeat; /* Adiciona um ícone de lupa ao input */
     background-position: 1em; /* Funciona como um "Padding" para o background */
 }
+
+@media screen and (min-width: 1024px) {
+    .banner {
+        padding: 7em 2em;
+    }
+    
+    .banner__titulo {
+        font-size: 36px;
+    }
+
+    .banner__texto {
+        font-size: 16px;
+    }
+
+    .banner__pesquisa {
+        margin: 1em auto;
+        padding: 1.5em;
+        width: 35%;
+    }
+}
